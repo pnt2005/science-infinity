@@ -1,0 +1,89 @@
+body{
+	font-family: "Raleway", Sans-serif;
+	margin: 0px;
+	margin-top: -20px;
+}
+#head{
+	padding-top: 20px;
+	height: 130px;
+	font-size: 70px;
+	color: #FF8C00;
+	margin: 10px auto;
+	margin-top: 0px;
+	text-align: center;
+	background-color: #323232;
+}
+#head span{
+	font-size: 20px;
+	display: block;
+	padding-top: 10px;
+	color: #F5FFFA;
+}
+#main{
+	width: 70%;
+	margin: 0;
+	padding: 0;
+	margin-top: 30px;
+	margin-left: 100px;
+	display: inline-block;
+}
+#main ul{
+	list-style-type: none;
+}
+#main ul li{
+	margin-bottom: 30px;
+}
+#main img{
+	width: 350px;
+	display: inline-block;
+	transition: all 0.2s;
+}
+#main img:hover{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#main p{
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	width: 400px;
+	font-size: 25px;
+	transition: 0.1s all;
+}
+#main p:hover{
+	color: #8B4513;
+}
+.bar{
+	margin: 0px;
+	font-size: 20px;
+	background-color: #1e1e1e;
+	height: 60px;
+	position: sticky;
+	top: 0px;
+}
+.bar ul{
+	list-style-type: none;
+	padding-top: 17px;
+}
+.bar ul li{
+	display: inline-block;
+}
+.bar a{
+	text-decoration: none;
+	color: #F5FFFA;
+	padding-right: 20px;
+	transition: 0.2 all;
+	padding: 10px;
+}
+.bar a:hover{
+	color: #FF8C00;
+}
+#menu a{
+	padding: 21px 10px;
+}
+#menu a:hover{
+	color: #1e1e1e;
+	background-color: #FF8C00;
+}
+#foot{
+	text-align: center;
+}
