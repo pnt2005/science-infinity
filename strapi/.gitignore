@@ -106,6 +106,7 @@ coverage
 # Strapi
 ############################
 
+.random
 license.txt
 exports
 *.cache
